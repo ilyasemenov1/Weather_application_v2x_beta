@@ -17,7 +17,7 @@
 <body>
     <main class="main-contenier">
         <div class="dispay-dark"></div>
-        <section class="search__conteiner">
+        <div class="search__conteiner">
             <div class="search">
                 <input type="text" name="text" class="search__input" placeholder="Введите название города..." required=""
                         value="Нью-Йорк, США">
@@ -25,17 +25,19 @@
                     <img src="document_icons\search_icon.png" alt="Paris" class="search__input-icon center">
                 </button>
             </div>
-        </section>
+        </div>
         <div class="page-content-weather">
-            <section class=weather-info__content>
-                <article class="weather-info__conteiner">
+            <div class=weather-info__content>
+                <section class="weather-info__conteiner">
                     <div class="weather-info">
-                        <h1 class="weather-info__city-title">Погода в Санкт-Петербургe</h1>
+                        <h1 class="weather-info__city-title">Погода в 
+                            <span class="weather-info__city">Санкт-Петербургe</span>
+                        </h1>
                         <div class="weather-info__content">
                             <div class="weather-info__first-content">
                                 <div class="temp-weather">
                                     <span class="temp-weather__temp">
-                                        +20
+                                        20
                                     </span>
                                 </div>
                                 <div class="status-info">
@@ -43,29 +45,27 @@
                                         Облачно
                                     </span>
                                     <span class="status-info__person">
-                                        Ощущается как +10°C
+                                        Ощущается как 
+                                        <span class="status-info__temp">10</span>
                                     </span>
                                 </div>
                             </div>
                             <div class="weather-info__second-content">
                                 <div class="wind weather-content">
-                                    <div class="weather-content__inon-wind"></div>
                                     <span class="wind__content weather-content-text text-wind">5</span>
                                 </div>
                                 <div class="humitity weather-content">
-                                    <div class="weather-content__inon-humitity"></div>
                                     <span class="humitity__content weather-content-text text-humitity">86</span>
                                 </div>
                                 <div class="pressure weather-content">
-                                    <div class="weather-content__inon-pressure"></div>
                                     <span class="pressure__content weather-content-text text-pressure">1000</span>
                                 </div>
             
                             </div>
                         </div>
                     </div>
-                </article>
-                <article class="hourly-forecast__conteiner">
+                </section>
+                <section class="hourly-forecast__conteiner">
                     <div class="hourly-forecast">
                         <h1 class="hourly-forecast__title">Почасовой прогноз</h1>
                         <div class="slider">
@@ -84,7 +84,7 @@
                                             <img src="weather_icons\1530376_weather_cloudy_storm_wind_icon.png" alt="Paris" class="center hourly-forecast-element__img">
                                         </div>
                                         <div class="hourly-forecast-element__temp-contener">
-                                            <span class="hourly-forecast-element__temp">+20</span>
+                                            <span class="hourly-forecast-element__temp">20</span>
                                         </div>
                                     </div>
                                     <div class="hourly-forecast-element">
@@ -93,7 +93,7 @@
                                             <img src="weather_icons\1530376_weather_cloudy_storm_wind_icon.png" alt="Paris" class="center hourly-forecast-element__img">
                                         </div>
                                         <div class="hourly-forecast-element__temp-contener">
-                                            <span class="hourly-forecast-element__temp">+20</span>
+                                            <span class="hourly-forecast-element__temp">20</span>
                                         </div>
                                     </div>
                                     <div class="hourly-forecast-element">
@@ -102,7 +102,7 @@
                                             <img src="weather_icons\1530376_weather_cloudy_storm_wind_icon.png" alt="Paris" class="center hourly-forecast-element__img">
                                         </div>
                                         <div class="hourly-forecast-element__temp-contener">
-                                            <span class="hourly-forecast-element__temp">+20</span>
+                                            <span class="hourly-forecast-element__temp">20</span>
                                         </div>
                                     </div>
                                     <div class="hourly-forecast-element">
@@ -111,7 +111,7 @@
                                             <img src="weather_icons\1530376_weather_cloudy_storm_wind_icon.png" alt="Paris" class="center hourly-forecast-element__img">
                                         </div>
                                         <div class="hourly-forecast-element__temp-contener">
-                                            <span class="hourly-forecast-element__temp">+20</span>
+                                            <span class="hourly-forecast-element__temp">20</span>
                                         </div>
                                     </div>
                                     <div class="hourly-forecast-element">
@@ -120,7 +120,7 @@
                                             <img src="weather_icons\1530376_weather_cloudy_storm_wind_icon.png" alt="Paris" class="center hourly-forecast-element__img">
                                         </div>
                                         <div class="hourly-forecast-element__temp-contener">
-                                            <span class="hourly-forecast-element__temp">+20</span>
+                                            <span class="hourly-forecast-element__temp">20</span>
                                         </div>
                                     </div>
                                     <div class="hourly-forecast-element">
@@ -129,7 +129,7 @@
                                             <img src="weather_icons\1530376_weather_cloudy_storm_wind_icon.png" alt="Paris" class="center hourly-forecast-element__img">
                                         </div>
                                         <div class="hourly-forecast-element__temp-contener">
-                                            <span class="hourly-forecast-element__temp">+20</span>
+                                            <span class="hourly-forecast-element__temp">20</span>
                                         </div>
                                     </div>
                                     <div class="hourly-forecast-element">
@@ -138,7 +138,7 @@
                                             <img src="weather_icons\1530376_weather_cloudy_storm_wind_icon.png" alt="Paris" class="center hourly-forecast-element__img">
                                         </div>
                                         <div class="hourly-forecast-element__temp-contener">
-                                            <span class="hourly-forecast-element__temp">+20</span>
+                                            <span class="hourly-forecast-element__temp">20</span>
                                         </div>
                                     </div>
                                     <div class="hourly-forecast-element">
@@ -147,7 +147,7 @@
                                             <img src="weather_icons\1530376_weather_cloudy_storm_wind_icon.png" alt="Paris" class="center hourly-forecast-element__img">
                                         </div>
                                         <div class="hourly-forecast-element__temp-contener">
-                                            <span class="hourly-forecast-element__temp">+20</span>
+                                            <span class="hourly-forecast-element__temp">20</span>
                                         </div>
                                     </div>
                                     <div class="hourly-forecast-element">
@@ -156,7 +156,7 @@
                                             <img src="weather_icons\1530376_weather_cloudy_storm_wind_icon.png" alt="Paris" class="center hourly-forecast-element__img">
                                         </div>
                                         <div class="hourly-forecast-element__temp-contener">
-                                            <span class="hourly-forecast-element__temp">+20</span>
+                                            <span class="hourly-forecast-element__temp">20</span>
                                         </div>
                                     </div>
                                     <div class="hourly-forecast-element">
@@ -165,7 +165,7 @@
                                             <img src="weather_icons\1530376_weather_cloudy_storm_wind_icon.png" alt="Paris" class="center hourly-forecast-element__img">
                                         </div>
                                         <div class="hourly-forecast-element__temp-contener">
-                                            <span class="hourly-forecast-element__temp">+20</span>
+                                            <span class="hourly-forecast-element__temp">20</span>
                                         </div>
                                     </div>
                                     <div class="hourly-forecast-element">
@@ -174,7 +174,7 @@
                                             <img src="weather_icons\1530376_weather_cloudy_storm_wind_icon.png" alt="Paris" class="center hourly-forecast-element__img">
                                         </div>
                                         <div class="hourly-forecast-element__temp-contener">
-                                            <span class="hourly-forecast-element__temp">+20</span>
+                                            <span class="hourly-forecast-element__temp">20</span>
                                         </div>
                                     </div>
                                     <div class="hourly-forecast-element">
@@ -183,7 +183,7 @@
                                             <img src="weather_icons\1530376_weather_cloudy_storm_wind_icon.png" alt="Paris" class="center hourly-forecast-element__img">
                                         </div>
                                         <div class="hourly-forecast-element__temp-contener">
-                                            <span class="hourly-forecast-element__temp">+20</span>
+                                            <span class="hourly-forecast-element__temp">20</span>
                                         </div>
                                     </div>
                                 </ul>
@@ -197,8 +197,8 @@
                             </div>
                         </div>
                     </div>
-                </article>
-            </section>
+                </section>
+            </div>
             <section class="last-towns__conteiner">
                 <div class="last-towns">
                     <h1 class="last-tows__title">Недавние города</h1>
@@ -235,7 +235,9 @@
                         <div class="day-yesterday weekly-forecast-day">
                             <span class="weekly-forecast-day__title day-yesterday__title">Вчера</span>
                             <div class="weekly-forecast-day__content">
-                                <span class="weekly-forecast-day__temp day-yesterday__temp">+20</span>
+                                <div class="weekly-forecast-day__temp-conteiner">
+                                    <span class="weekly-forecast-day__temp day-yesterday__temp">+20</span>
+                                </div>
                                 <span class="weekly-forecast-day__status-info day-yesterday__status-info">Облачно</span>
                             </div>
                             <button class="day-info-button">
@@ -248,7 +250,9 @@
                                 Сегодня
                             </span>
                             <div class="weekly-forecast-day__content">
-                                <span class="weekly-forecast-day__temp day-now__temp">+20</span>
+                                <div class="weekly-forecast-day__temp-conteiner">
+                                    <span class="weekly-forecast-day__temp day-now__temp">20</span>
+                                </div>
                                 <span class="weekly-forecast-day__status-info day-now__status-info">Облачно</span>
                             </div>
                             <button class="day-info-button">
@@ -261,7 +265,9 @@
                                 Завтра
                             </span>
                             <div class="weekly-forecast-day__content">
-                                <span class="weekly-forecast-day__temp day-tomorrow__temp">+20</span>
+                                <div class="weekly-forecast-day__temp-conteiner">
+                                    <span class="weekly-forecast-day__temp day-tomorrow__temp">20</span>
+                                </div>
                                 <span class="weekly-forecast-day__status-info day-tomorrow__status-info">Облачно</span>
                             </div>
                             <button class="day-info-button">
@@ -272,7 +278,9 @@
                         <div class="day-after-tomorrow weekly-forecast-day">
                             <span class="weekly-forecast-day__title day-after-tomorrow__title">5 сентабря</span>
                             <div class="weekly-forecast-day__content">
-                                <span class="weekly-forecast-day__temp day-after-tomorrow__temp">+20</span>
+                                <div class="weekly-forecast-day__temp-conteiner">
+                                    <span class="weekly-forecast-day__temp day-after-tomorrow__temp">20</span>
+                                </div>
                                 <span class="weekly-forecast-day__status-info day-after-tomorrow__status-info">Облачно</span>
                             </div>
                             <button class="day-info-button">
@@ -283,7 +291,9 @@
                         <div class="day-after-tomorrow_2 weekly-forecast-day">
                             <span class="weekly-forecast-day__title day-after-tomorrow-2__title">6 сентабря</span>
                             <div class="weekly-forecast-day__content">
-                                <span class="weekly-forecast-day__temp day-after-tomorrow-2__temp">+20</span>
+                                <div class="weekly-forecast-day__temp-conteiner">
+                                    <span class="weekly-forecast-day__temp day-after-tomorrow-2__temp">20</span>
+                                </div>
                                 <span class="weekly-forecast-day__status-info day-after-tomorrow-2status-info">Облачно</span>
                             </div>
                             <button class="day-info-button">

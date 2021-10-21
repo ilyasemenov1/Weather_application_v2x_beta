@@ -30,7 +30,7 @@ function search_focus() {
     search__button.className = "search__button click-button search__button-focus";
     search__button.style = "transition: 0s ease;";
     display_dark.className = "dispay-dark dispay-dark-on";
-    main_contenier.style = "overflow: hidden;";
+    main_contenier.style = "overflow: hidden; height: 98vh;";
     page_content_weather.style = "pointer-events: none;"
 }
 function search_blur() {
